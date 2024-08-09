@@ -1,0 +1,36 @@
+/* Style Tabel */
+.keren-table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.keren-table th, .keren-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Warna Header Tabel */
+.keren-table th {
+    background-color: #f2f2f2;
+}
+
+/* Warna Baris Genap */
+.keren-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover pada Baris */
+.keren-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* Responsive Tabel */
+@media (max-width: 768px) {
+    .keren-table {
+        font-size: 14px;
+    }
+}

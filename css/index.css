@@ -1,0 +1,167 @@
+.mynav {
+    height: 80px;
+    width: 100%;
+    padding-top: 5px;
+    background-color: #000;
+
+    .nav-icon {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 14px;
+    }
+
+    .brand-link {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .link-nav {
+        text-decoration: none;
+        color: #fff;
+        opacity: 75%;
+    }
+
+    .link-nav:hover {
+        color: #f58426;
+        opacity: 100%;
+    }
+
+    .link-nav-dis {
+        text-decoration: none;
+        pointer-events: none;
+        cursor: default;
+        color: #fff;
+        opacity: 75%;
+    }
+
+    .link-nav-active {
+        text-decoration: none;
+        color: #f58426;
+    }
+}
+
+.opening {
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100px;
+    top: 80px;
+
+    .img-opn {
+        width: 500px;
+        height: 500px;
+    }
+
+    .btn-opn {
+        text-decoration: none;
+        padding: 10px 30px 10px 30px;
+        border-radius: 15px;
+        color: #fff;
+        background-color: #000;
+        opacity: 100%;
+    }
+
+    .btn-opn:hover {
+        border: 1px solid;
+        border-color: #000;
+        color: #000;
+        background-color: transparent;
+    }
+}
+
+.login {
+    position: relative;
+    color: #fff;
+    padding: 100px;
+    top: 80px;
+
+    .btn-log {
+        text-decoration: none;
+        padding: 10px 30px 10px 30px;
+        border-radius: 15px;
+        color: #fff;
+        background-color: #000;
+        opacity: 100%;
+    }
+
+    .btn-log:hover {
+        border: 1px solid;
+        border-color: #000;
+        color: #000;
+        background-color: transparent;
+    }
+}
+
+.contact {
+    position: relative;
+    padding: 100px 300px 100px 300px;
+    top: 80px;
+
+    .img-ct {
+        width: 200px;
+        height: 200px;
+    }
+
+    .btn-ct {
+        text-decoration: none;
+        padding: 10px 30px 10px 30px;
+        border-radius: 15px;
+        color: #fff;
+        background-color: #000;
+        opacity: 100%;
+    }
+
+    .btn-ct:hover {
+        border: 1px solid;
+        border-color: #000;
+        color: #000;
+        background-color: transparent;
+    }
+
+}
+
+.my-foot {
+    position: relative;
+    padding: 50px 75px 20px 75px;
+    top: 80px;
+    color: #fff;
+    background-color: #424242;
+
+    .list-foot {
+        width: 300px;
+    }
+
+    .link-foot {
+        text-decoration: none;
+        opacity: 75%;
+        color: #fff;
+    }
+
+    .link-foot:hover {
+        opacity: 100%;
+    }
+
+    .link-foot-dis {
+        text-decoration: none;
+        pointer-events: none;
+        cursor: default;
+        color: #fff;
+        opacity: 75%;
+    }
+
+    .link-email-foot {
+        color: #f58426;
+    }
+
+    .link-email-foot:hover {
+        opacity: 75%;
+    }
+
+    .icon-foot {
+        width: 25px;
+        height: 25px;
+    }
+
+    .space-foot {
+        margin-left: 90px;
+    }
+}
